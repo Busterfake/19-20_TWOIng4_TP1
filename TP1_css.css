@@ -44,14 +44,27 @@ body {
 
    aside { 
        float: right;
+       padding-top: 25px;
+       padding-right: 25px;
+       border-radius: 20%; 
    }
+   img {
+       border-radius: 25%;
+}
+
+.test {
+    margin-left: 600px;
+    margin-bottom: 50px; 
+}
 
    .description {
     left: 50%;
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translate(-50%, -55%);
     text-align: center;
+   
+
    }
    .description h1 {
     color: #1334f1;
@@ -67,6 +80,7 @@ body {
     background-color: transparent;
     border-radius: 0;
     color: #fff;
+    margin-bottom: 20px;
    }
    .description button:hover {
     border:1px solid #fff;
@@ -95,19 +109,4 @@ body {
 }
 
 
-.features .form-control,
-.features input {
- border-radius: 0;
-}
-.features .btn {
- background-color: #5449f0;
- border: 1px solid #ff0202;
- color: #fff;
- margin-top: 20px;
-}
-.features .btn:hover {
- background-color: #333;
- border: 1px solid #333;
-}
-   
-   
+
