@@ -42,10 +42,14 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
    }
 
+   aside { 
+       float: right;
+   }
+
    .description {
     left: 50%;
     position: absolute;
-    top: 20%;
+    top: 30%;
     transform: translate(-50%, -55%);
     text-align: center;
    }
